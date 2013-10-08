@@ -1,0 +1,99 @@
+<archetype-descriptor name="sample-archetype">
+    <fileSets>
+        <fileSet filtered="true">
+            <directory></directory>
+            <includes>
+                <include>pom.xml</include>
+                <include>README</include>
+                <include>.hgignore</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true">
+            <directory>__artifactId__-impl</directory>
+            <includes>
+                <include>pom.xml</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true">
+            <directory>__artifactId__-impl/src/main/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+		<fileSet filtered="true">
+            <directory>__artifactId__-impl/src/main/resources</directory>
+            <includes>
+                <include>**/*.xml</include>
+                <include>**/*.properties</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true">
+            <directory>__artifactId__-impl/src/test/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+		
+		<fileSet filtered="true">
+            <directory>__artifactId__-utils</directory>
+            <includes>
+                <include>pom.xml</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true">
+            <directory>__artifactId__-utils/src/main/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+		<fileSet filtered="true">
+            <directory>__artifactId__-utils/src/main/resources</directory>
+            <includes>
+                <include>**/*.xml</include>
+                <include>**/*.properties</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true">
+            <directory>__artifactId__-utils/src/test/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+		
+		<fileSet filtered="true">
+            <directory>__artifactId__-web</directory>
+            <includes>
+                <include>pom.xml</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true">
+            <directory>__artifactId__-web/src/main/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+		<fileSet filtered="true">
+            <directory>__artifactId__-web/src/main/resources</directory>
+            <includes>
+                <include>**/*.xml</include>
+                <include>**/*.properties</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true">
+            <directory>__artifactId__-web/src/main/webapp</directory>
+            <includes>
+                <include>**/*.xml</include>
+                <include>**/*.css</include>
+                <include>**/*.jpg</include>
+                <include>**/*.js</include>
+            </includes>
+        </fileSet>
+		
+		<fileSet filtered="true">
+            <directory>templates</directory>
+            <includes>
+                <include>**/*.tpl</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</archetype-descriptor>
